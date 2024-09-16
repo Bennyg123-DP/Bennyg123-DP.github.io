@@ -52,6 +52,70 @@
 <!-- Contact Section -->
 <section id="contact">
   <h2>Contact Me</h2>
+  /* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+
+.navbar a {
+  padding: 14px 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+section {
+  padding: 20px;
+}
+
+#projects .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 30%;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 16px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
   <p>Email: your-email@example.com</p>
 </section>
 
